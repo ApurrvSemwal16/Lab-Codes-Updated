@@ -8,7 +8,7 @@ public class EvenOrOdd {
 		
 		while (count<3) {
 			System.out.println("Enter value of an integer: ");
-			float a = scc.nextInt();
+			int a = scc.nextInt();
 		
 			if (a%2==0) {
 				System.out.println(a+" is even.");
